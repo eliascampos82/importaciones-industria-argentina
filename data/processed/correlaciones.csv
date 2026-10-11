@@ -1,0 +1,25 @@
+ventana,exposicion,exposicion_col,resultado,resultado_col,rho,p_valor,n_ramas,p_corregido
+2018,Crecimiento de las importaciones (USD),d_imp_cif,Δ% empleo,d_empleo,0.5058823529411764,0.04558161612394021,16,0.3646529289915217
+2018,Crecimiento de las importaciones (USD),d_imp_cif,Δ% salario real,d_salario,0.2911764705882353,0.27388704841914857,16,0.6436087917372306
+2018,Crecimiento de las importaciones (USD),d_imp_cif,Δ% producción (IPI),d_ipi,0.1264705882352941,0.6406944408168839,16,0.8942665132405591
+2018,Crecimiento de las importaciones (toneladas),d_imp_kg,Δ% empleo,d_empleo,0.3764705882352941,0.15064811528763097,16,0.47988975435995135
+2018,Crecimiento de las importaciones (toneladas),d_imp_kg,Δ% salario real,d_salario,-0.08823529411764705,0.7452220943671326,16,0.8942665132405591
+2018,Crecimiento de las importaciones (toneladas),d_imp_kg,Δ% producción (IPI),d_ipi,-0.2764705882352941,0.29994212849237334,16,0.6436087917372306
+2018,Aumento de la participación de China (p.p.),d_china_pp,Δ% empleo,d_empleo,0.06470588235294117,0.8118214513105935,16,0.9001082031306503
+2018,Aumento de la participación de China (p.p.),d_china_pp,Δ% salario real,d_salario,0.047058823529411764,0.8626036946668733,16,0.9001082031306503
+2018,Aumento de la participación de China (p.p.),d_china_pp,Δ% producción (IPI),d_ipi,-0.2647058823529412,0.3218043958686153,16,0.6436087917372306
+2018,Participación de China en las importaciones (nivel),pct_china,Δ% empleo,d_empleo,0.09117647058823529,0.7370049501736591,16,0.8942665132405591
+2018,Participación de China en las importaciones (nivel),pct_china,Δ% salario real,d_salario,-0.3529411764705882,0.17995865788498175,16,0.47988975435995135
+2018,Participación de China en las importaciones (nivel),pct_china,Δ% producción (IPI),d_ipi,-0.7441176470588236,0.0009482827857378677,16,0.022758786857708827
+2023,Crecimiento de las importaciones (USD),d_imp_cif,Δ% empleo,d_empleo,0.1647058823529412,0.542148135201078,16,0.8674370163217248
+2023,Crecimiento de las importaciones (USD),d_imp_cif,Δ% salario real,d_salario,0.18823529411764706,0.4850866091454684,16,0.8674370163217248
+2023,Crecimiento de las importaciones (USD),d_imp_cif,Δ% producción (IPI),d_ipi,0.047058823529411764,0.8626036946668733,16,0.9001082031306503
+2023,Crecimiento de las importaciones (toneladas),d_imp_kg,Δ% empleo,d_empleo,-0.01764705882352941,0.9482801500547113,16,0.9482801500547113
+2023,Crecimiento de las importaciones (toneladas),d_imp_kg,Δ% salario real,d_salario,-0.09705882352941177,0.7206513082372035,16,0.8942665132405591
+2023,Crecimiento de las importaciones (toneladas),d_imp_kg,Δ% producción (IPI),d_ipi,-0.12058823529411765,0.6564245147485953,16,0.8942665132405591
+2023,Aumento de la participación de China (p.p.),d_china_pp,Δ% empleo,d_empleo,-0.17941176470588235,0.5061395399904387,16,0.8674370163217248
+2023,Aumento de la participación de China (p.p.),d_china_pp,Δ% salario real,d_salario,-0.538235294117647,0.0314932282058383,16,0.3646529289915217
+2023,Aumento de la participación de China (p.p.),d_china_pp,Δ% producción (IPI),d_ipi,-0.3588235294117647,0.17230386289263253,16,0.47988975435995135
+2023,Participación de China en las importaciones (nivel),pct_china,Δ% empleo,d_empleo,-0.3911764705882353,0.13407128619725525,16,0.47988975435995135
+2023,Participación de China en las importaciones (nivel),pct_china,Δ% salario real,d_salario,-0.4441176470588235,0.08482274417741573,16,0.47988975435995135
+2023,Participación de China en las importaciones (nivel),pct_china,Δ% producción (IPI),d_ipi,-0.3970588235294118,0.12780600908826178,16,0.47988975435995135

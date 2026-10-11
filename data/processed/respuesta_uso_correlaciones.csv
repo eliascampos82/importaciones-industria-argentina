@@ -1,0 +1,13 @@
+exposicion_col,exposicion,resultado_col,resultado,rho,p_valor,n_ramas,p_corregido
+consumo_usd,Bienes de consumo (USD),empleo,Empleo,0.007142857142857141,0.9798442277615982,15,0.9798442277615982
+consumo_usd,Bienes de consumo (USD),produccion,Producción,-0.05714285714285713,0.8396998687415759,15,0.9798442277615982
+consumo_usd,Bienes de consumo (USD),salario,Salario real,-0.3,0.2773167803683841,15,0.6655602728841218
+consumo_ton,Bienes de consumo (toneladas),empleo,Empleo,0.035714285714285705,0.8994469934720875,15,0.9798442277615982
+consumo_ton,Bienes de consumo (toneladas),produccion,Producción,-0.43214285714285705,0.1076930375463979,15,0.32307911263919376
+consumo_ton,Bienes de consumo (toneladas),salario,Salario real,-0.1464285714285714,0.602549920983054,15,0.9038248814745811
+insumos_usd,Insumos (USD),empleo,Empleo,0.7794117647058825,0.00037168023647875443,16,0.004460162837745053
+insumos_usd,Insumos (USD),produccion,Producción,0.19117647058823528,0.47816401281702847,16,0.819709736257763
+insumos_usd,Insumos (USD),salario,Salario real,0.6176470588235293,0.010787984601948842,16,0.06472790761169306
+capital_usd,Bienes de capital (USD),empleo,Empleo,0.39285714285714296,0.3833168704269727,7,0.7666337408539454
+capital_usd,Bienes de capital (USD),produccion,Producción,-0.03571428571428572,0.9394082054712856,7,0.9798442277615982
+capital_usd,Bienes de capital (USD),salario,Salario real,0.7500000000000002,0.0521814004570578,7,0.2087256018282312

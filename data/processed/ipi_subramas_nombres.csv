@@ -1,0 +1,66 @@
+codigo,nombre,rama_padre
+15111,Carne vacuna,15
+15112,Carne aviar,15
+15113,Fiambres y embutidos,15
+15130,"Preparación de frutas, hortalizas y legumbres",15
+15140,Molienda de oleaginosas,15
+15200,Productos lácteos,15
+15311/12/13/20,Molienda de cereales,15
+15411/12/41/42,"Galletitas, productos de panadería y pastas",15
+15420/30,"Azúcar, productos de confitería y chocolate",15
+15491/2/3,"Yerba mate, té y café",15
+15510/29/30/41/42/49,"Gaseosas, aguas, sodas, cervezas, jugos para diluir, sidras y bebidas espirituosas",15
+15521,Vino,15
+15120/330/499,Otros productos alimenticios,15
+16001,Preparación de hojas de tabaco,16
+16009,Cigarrillos,16
+17111/2,Preparación de fibras de uso textil,17
+17113,Hilados de algodón,17
+17114/15/20,Tejidos y acabado de productos textiles,17
+17210/20/30/90,Otros productos textiles,17
+18110/120/401/402/900,Prendas de vestir,18-19
+19110/20,"Curtido y artículos de cuero, excepto prendas",18-19
+19201/2/3/4,Calzado y sus partes,18-19
+20100/210/220/230/290,"Madera y productos de madera y corcho, excepto muebles",20-22
+21010/20/91/99,Papel y productos de papel,20-22
+22110/120/190/210/220,Edición e impresión,20-22
+23200,Naftas,23
+23100/200/300,"Otros productos de la refinación del petróleo, coque y combustible nuclear",23
+24111,Gases industriales,24
+"2411, excepto 24111",Productos químicos básicos,24
+24120/210,Agroquímicos,24
+24130,Materias primas plásticas y caucho sintético,24
+24220,Pinturas,24
+24231/2/3/9,Productos farmacéuticos,24
+24241/9,"Detergentes, jabones y productos personales",24
+24290/300,Otros productos químicos,24
+25110,Neumáticos,25
+25190,Otros productos de caucho,25
+25201/9,Manufacturas de plástico,25
+26101/2/9,Vidrio y productos de vidrio,26
+26910/30,Productos de arcilla y cerámica no refractaria,26
+26941,Cemento,26
+26942,Cal y yeso,26
+26951/9,Artículos de cemento y de yeso,26
+26920/60/90,Otros productos minerales no metálicos,26
+27100,Industria siderúrgica,27
+27201/9,Aluminio y otros metales no ferrosos,27
+27310/20,Fundición de metales,27
+28110,Productos metálicos para uso estructural,28
+28991,Envases metálicos,28
+28120/130/910/920/930/999,Otros productos de metal y servicios de trabajo de metales,28
+29110/20/30/40/50/90,Maquinaria de uso general,29
+29211/2/3,Maquinaria agropecuaria,29
+"292, excepto 2921",Otra maquinaria de uso especial,29
+29300,Aparatos de uso doméstico,29
+30000/32100/200/300,"Equipos y aparatos de informática, televisión y comunicaciones, y componentes electrónicos",30-33
+31100/200/300/400/500/900,Equipos y aparatos eléctricos,30-33
+33110/120/200/300/400,"Instrumentos médicos, ópticos y de precisión",30-33
+34100,Vehículos automotores,34
+34200,"Carrocerías, remolques y semirremolques",34
+34300,Autopartes,34
+35910,Motocicletas,35
+35110/120/200/300/990,Otro equipo de transporte,35
+36101/2/3,Muebles y colchones,36-38
+36900,Otras industrias manufactureras,36-38
+37000/38000,"Reciclamiento y reparación, instalación y mantenimiento",36-38
