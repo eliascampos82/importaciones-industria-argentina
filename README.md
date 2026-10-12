@@ -98,5 +98,5 @@ tests/                  pruebas automáticas (datos y pestañas)
 
 ## Autor
 
-Francisco Elias Campos
-Estudiante de la Tecnicatura:  Técnico Superior en Ciencia de Datos e Inteligencia Artificial  
+Francisco Elias Campos  
+Estudiante de la Tecnicatura: Técnico Superior en Ciencia de Datos e Inteligencia Artificial  
