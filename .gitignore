@@ -6,3 +6,4 @@ __pycache__/
 data/raw/comercio_exterior/importaciones/
 data/raw/comercio_exterior/exportaciones/
 .pytest_cache/
+analisis_profesional/

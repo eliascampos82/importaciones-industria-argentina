@@ -12,6 +12,8 @@
 
 Es una coincidencia medida en 16 ramas, no un efecto causal.
 
+El informe completo, de 8 páginas, está en [conclusiones.pdf](conclusiones.pdf).
+
 ## Cómo ejecutar
 
 Lo más simple: hacer doble clic en `run.bat` (usa el entorno del proyecto e instala lo que falte).
@@ -60,21 +62,21 @@ Cruza comercio exterior con empleo, salarios y producción de la industria argen
 | Salario real | mar-2026 |
 | IPC | ago-2026 |
 | Empresas activas | 2024 (serie anual) |
-| Comercio exterior | dic-2025 (el INDEC ya publica enero-agosto 2026 por mes; ver `pasos_a_seguir.md`) |
+| Comercio exterior | dic-2025 (años completos) |
 
 La respuesta a la pregunta usa **2018 → 2025**, el último año completo en todas las fuentes.
 
-## Cómo actualizar los datos
+## Cómo regenerar los datos
 
-Con los archivos nuevos en `data/raw/` (mismo nombre que los anteriores), desde la terminal:
+Los datos procesados ya están incluidos (`data/processed/`), así que la aplicación funciona sin este paso. Para regenerarlos desde los archivos originales:
 
 ```
-.\.venv\Scripts\python.exe -m pip install -r requirements-dev.txt
-.\.venv\Scripts\python.exe actualizar_datos.py
+python -m pip install -r requirements.txt
+python src/download_comex.py
 ```
 
-Corre los tres cuadernos en orden y después los controles de datos. Las pruebas de todo el proyecto (datos y pestañas) se corren con
-`.\.venv\Scripts\python.exe -m pytest`.
+El segundo comando descarga del INDEC las bases de comercio exterior 2016-2025 (unos 120 MB, no se incluyen en el repositorio). Después se ejecutan los tres
+cuadernos de `notebooks/` en orden (01, 02 y 03). Las pruebas de todo el proyecto (datos y pestañas) se corren con `python -m pytest`.
 
 ## Fuentes
 
@@ -85,14 +87,13 @@ ARCA (códigos de país) y Banco Mundial - WITS (correspondencia de productos co
 
 ```
 dashboard/              la aplicación: Inicio.py (navegación), paginas/ (una por pestaña) y core/ (datos, gráficos, tarjetas, estilo)
-src/                    carga de los archivos originales, clasificación en ramas y por uso económico, y cálculos
+src/                    carga de los archivos originales, clasificación en ramas y por uso económico, cálculos y descarga del comercio exterior
 notebooks/              cuadernos que generan los datos procesados (01 comercio, 02 empleo/salarios/producción, 03 análisis)
-data/raw/               datos originales descargados de las fuentes
+data/raw/               datos originales de las fuentes (con su propio README)
 data/processed/         datos procesados que lee la aplicación
 tests/                  pruebas automáticas (datos y pestañas)
-analisis_profesional/   revisión del trabajo como la haría un analista senior, y la evaluación final
-archivo/                borradores y documentos de etapas anteriores (no hacen falta para el proyecto)
-actualizar_datos.py     regenera todos los datos procesados con un comando
-pasos_a_seguir.md       lo que falta, lo que se mejoró y cómo
-explicacion.md          guía para exponer el trabajo oralmente (conceptos, preguntas y respuestas)
 ```
+
+## Autor
+
+Francisco Elias Campos

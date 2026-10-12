@@ -245,6 +245,7 @@ div.doc .pie-hoja { display: flex; justify-content: space-between; font-family: 
   [data-testid="stHeader"], [data-testid="stToolbar"], [data-testid="stDecoration"], [data-testid="stSidebar"] { display: none !important; }
   [data-testid="stMainBlockContainer"] { padding: 0 !important; max-width: none !important; }
   [data-testid="stElementContainer"]:has([data-testid="stHeading"]), [data-testid="stElementContainer"]:has(.subtitulo) { display: none !important; }
+  [data-testid="stVerticalBlock"]:has([class*="st-key-hoja_"]) { gap: 0 !important; }
   [class*="st-key-hoja_8"] { break-after: auto !important; page-break-after: auto !important; }
   [class*="st-key-hoja_"] { box-shadow: none !important; margin: 0 !important; width: 210mm !important; height: 296mm !important; min-height: 0 !important; overflow: hidden;
                             break-after: page; page-break-after: always; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
