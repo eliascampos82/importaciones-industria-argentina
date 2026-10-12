@@ -1,5 +1,7 @@
 # Importaciones e industria en Argentina
 
+**Ver el dashboard en línea:** https://importaciones-industria-argentina.streamlit.app/
+
 > **Desde 2018, ¿la industria argentina perdió empleo, producción y salario justo en los sectores donde más crecieron las importaciones?**
 
 **Respuesta: no.** Entre 2018 y 2025 la industria produjo 5,6% menos y pagó salarios reales 7,5% más bajos. Pero las pérdidas no se concentraron donde más crecieron las importaciones, y en general fue al revés:
